@@ -23,12 +23,12 @@ $$\text{Cov}(X_i,X_j) = \frac{1}{n-1}\sum_{k=1}^{n}(X_{i}^{k}-\bar{X}i)(X_{j}^{k
 $$\mathbf{S} = \frac{1}{n-1}\mathbf{X}^\top\mathbf{X},$$
 
 
-where $\mathbf{X}$ is the $n \times p$ matrix of standardized data, and $\mathbf{S}$ is the $p \times p$ sample covariance matrix. The $(i,j)$th entry of $\mathbf{S}$ is given by
+where $\mathbf{X}$ is the $n \times p$ matrix of standardized data, and $\mathbf{S}$ is the $p \times p$ sample covariance matrix. The $(i,j)^{th}$ entry of $\mathbf{S}$ is given by
 
 $$s_{i,j} = \frac{1}{n-1}\sum_{k=1}^{n} x_{k,i}x_{k,j},$$
 
 
-where $x_{k,i}$ and $x_{k,j}$ are the $i$th and $j$th standardized variables, respectively, for the $k$th observation.
+where $x_{k,i}$ and $x_{k,j}$ are the $i$th and $j^{th}$ standardized variables, respectively, for the $k^{th}$ observation.
 It is important to note that the covariance matrix is a square, postive definate ,symmetric matric of dimension p by p where p is the number of variables
 
 3. Compute the eigenvalue and eigenvector of our covariance matrix
