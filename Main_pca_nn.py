@@ -1,14 +1,12 @@
 import numpy as np
-import numpy as np
 import pandas as pd
 import seaborn as sns
 from sklearn.datasets import load_iris
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 from Neural_Netwoks import NeuralNetwork
 from PCA import PCA
 
-
+# Data generation for PCA
 iris = load_iris()
 x= iris['data']
 y = iris['target']
@@ -28,7 +26,7 @@ corr_matrix = df.corr()
 
 
 
-#Data generation Neural Network
+#Data generation for Neural Networks
 var = 0.2
 n = 800
 class_0_a = var * np.random.randn(n//4,2)
@@ -63,9 +61,11 @@ Y_test = Y [:, int (n*ratio):]
 
 model_NN = NeuralNetwork(2,10,1,0.001,10000)
 model_pca = PCA(n_component=2)
+
+
 def main():
      
-     print("Choose type of model ?")
+     print("Choose model type you want to use")
      user = input("1 for Neural network and 2 for PCA ")
      if user=="1":
          plt.scatter(X_train[0,:], X_train[1,:], c=Y_train[0,:])
