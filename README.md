@@ -6,14 +6,8 @@ PCA is a simple dimensionality reduction technique that can capture linear corre
 We used iris dataset which consists of 50 samples from each of three species of Iris. The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width.
 
 Compute the mean as follows for each variables as
-$$
-\begin{align*}
-\text{Mean} &= \bar{X} = \frac{1}{n}\sum_{i=1}^{n} X_i \
-\end{align*}
-\begin{align*}
-\text{Variance} &= \sigma^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{X})^2
-\end{align*}
-$$
+$$ \text{Mean} &= \bar{X} = \frac{1}{n}\sum_{i=1}^{n} X_i $$
+$$\text{Variance} &= \sigma^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{X})^2 $$
 Where $X_{i}$ represent the $i^{th}$ variable in the data set.
  To standardize a variable X using its mean ($\bar{X}$) and standard deviation ($\sigma$):
 
