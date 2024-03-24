@@ -9,6 +9,6 @@ $$\text{Variance} = \sigma^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{X})^2 $$
 Where $X_{i}$ represent the $i^{th}$ variable in the data set.
  To standardize a variable X using its mean ($\bar{X}$) and standard deviation ($\sigma$):
 
-$$\text{Standardized }X &= \frac{X - \bar{X}}{\sigma} $$
+$$\text{Standardized }X = \frac{X - \bar{X}}{\sigma} $$
 
 In this code, $\bar{X}$ represents the sample mean of the variable X, $\sigma$ represents the sample standard deviation of X, and X represents the original unstandardized variable. The resulting standardized variable has a mean of 0 and a standard deviation of 1.
