@@ -52,8 +52,8 @@ class NeuralNetwork:
         dA1_dZ1 = self.d_sigmoid(Z1)
         dZ1_dW1 = X.T
 
-        dW1 = (dZ2_dA1.T * (dL_dA2 * dA2_dZ2)* dA1_dZ1) @ dZ1_dW1
-        db1 = ((dL_dA2 * dA2_dZ2)@(dZ2_dA1.T *dA1_dZ1).T).T
+        dW1 = (dZ2_dA1.T * (dL_dA2 * dA2_dZ2) * dA1_dZ1) @ dZ1_dW1
+        db1 = ((dL_dA2 * dA2_dZ2) @ (dZ2_dA1.T * dA1_dZ1).T).T
 
         return dW1, dW2, db1, db2
         
