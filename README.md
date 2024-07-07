@@ -78,3 +78,21 @@ $$\theta^{(k)} \leftarrow \theta^{(k)} - \eta \frac{\partial \mathcal L}{\partia
 
 $${b}^{(k)}  \leftarrow {b}^{(k)} - \eta \frac{\partial \mathcal L}{\partial {b}^{(k)}}$$
 where $\eta$ is the learning rate.
+
+## Installation
+- Inorder to run this implementation, clone the repository https:
+
+       https://github.com/leonard-sanya/PCA-and-Neural-Network-_from_Scratch.git   
+      
+- Run th PCA and the Neural network using the following command:
+
+      python Main_pca_nn.py
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md). Please read the License file for more information.
+
+## Acknowledgments
+
+Feel free to explore each lab folder for detailed implementations, code examples, and any additional resources provided. Reach out to me via [email](lsanya@aimsammi.org) in case of any question or sharing of ideas and opportunities
+
